@@ -1,5 +1,6 @@
 :root {
   --branding-color: orange;
+
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
@@ -8,6 +9,7 @@ body {
   margin: 60px auto;
   max-width: 800px;
   display: block;
+  font-family: var(--default-font);
 }
 
 h1 {
@@ -32,6 +34,9 @@ h2 {
 .hero {
   text-align: center;
   margin: 0;
+
+  text-align: center;
+  padding: 160px 20px;
 }
 
 .btn-branding {
