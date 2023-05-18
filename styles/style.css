@@ -6,8 +6,6 @@
 }
 
 body {
-  margin: 60px auto;
-
   display: block;
   font-family: var(--default-font);
 }
