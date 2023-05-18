@@ -2,6 +2,7 @@
   --branding-color: orange;
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
+  --secondary-color: #f9f7fe;
 }
 
 body {
@@ -35,6 +36,7 @@ h2 {
   margin: 0;
   text-align: center;
   padding: 160px 20px;
+  background-color: var(--secondary-color);
 }
 
 .btn-branding {
