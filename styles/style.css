@@ -1,13 +1,12 @@
 :root {
   --branding-color: orange;
-
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
 
 body {
   margin: 60px auto;
-  max-width: 800px;
+
   display: block;
   font-family: var(--default-font);
 }
