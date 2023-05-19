@@ -63,54 +63,17 @@ h3 {
   color: orange;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
 .navbar-nav a {
   color: black;
   font-size: 20px;
 }
 
 .navbar-nav a:hover {
-  color: pink;
+  color: orange;
 }
 
 .personal-logo {
   max-width: 90px;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-i {
-  font-size: 50px;
 }
 
 @media (max-width: 576px) {
