@@ -76,6 +76,11 @@ h3 {
   max-width: 90px;
 }
 
+.icon {
+  margin: 0 5px;
+  padding: 5px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
