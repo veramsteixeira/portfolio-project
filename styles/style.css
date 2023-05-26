@@ -8,6 +8,11 @@
 body {
   display: block;
   font-family: var(--default-font);
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
 }
 
 h1 {
@@ -69,7 +74,13 @@ footer .contact-box p {
   margin: 0;
   text-align: center;
   padding: 160px 20px;
-  background-color: var(--secondary-color);
+}
+
+.heroContact {
+  text-align: center;
+  margin: 0;
+  text-align: center;
+  padding: 200px 20px;
 }
 
 .btn-branding {
@@ -125,7 +136,7 @@ footer .contact-box p {
     height: auto;
   }
   .max-width-200 {
-    max-width: 90px;
+    max-width: 70px;
   }
   .center-block {
     display: block;
