@@ -113,6 +113,11 @@ footer .contact-box p {
   max-width: 90px;
 }
 
+.img-fluid {
+  max-width: 90%;
+  height: auto;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
