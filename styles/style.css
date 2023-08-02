@@ -118,15 +118,6 @@ footer .contact-box p {
   height: auto;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.container .col-md-3 {
-  width: 25%;
-}
-
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
