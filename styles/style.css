@@ -74,6 +74,8 @@ footer .contact-box p {
   margin: 0;
   text-align: center;
   padding: 160px 20px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
 }
 
 .heroContact {
@@ -118,6 +120,11 @@ footer .contact-box p {
   height: auto;
 }
 
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .content {
   margin: 30px;
   text-align: center;
@@ -146,6 +153,17 @@ footer .contact-box p {
   max-height: 200px;
   object-fit: cover;
   margin-bottom: 10px;
+}
+
+.about-box {
+  width: 50%;
+  max-width: 1200px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.centered-line {
+  text-align: center;
 }
 
 @media (max-width: 576px) {
